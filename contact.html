@@ -1,82 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <style type="text/css">
-	.logo{
+	.logo {
 		width: 100%;
 		margin-top: 10px;
 
 	}
-	.inlogo{
+
+	.inlogo {
 		margin-left: 38%;
 	}
-	.button-area{
+
+	.button-area {
 		margin-bottom: 40px;
 		margin-top: 25px;
 	}
-	.button{
+
+	.button {
 		margin-left: 36%;
-		
+
 		width: 40%;
 	}
-	.inbutton{
+
+	.inbutton {
 		float: left;
 		margin-left: 25px;
 	}
-	a{
-		text-decoration:none;
+
+	a {
+		text-decoration: none;
 		color: red;
 		text-transform: uppercase;
 	}
 
-	.contact-bg{
+	.contact-bg {
 		background-color: #f5e7df;
 		margin-bottom: 40px;
 	}
 
-	.contact-image{
+	.contact-image {
 		margin-top: 40px;
 	}
 
-	.contact-bgtext{
+	.contact-bgtext {
 		text-align: center;
 		width: 20%;
 		margin-left: 40%;
 
 	}
-	.contact-form{
+
+	.contact-form {
 		margin-left: 35%;
 
 	}
 
-	.name{
+	.name {
 		width: 200px;
 		height: 25px;
 		background-color: transparent;
 		margin-bottom: 20px;
 	}
 
-	.email{
+	.email {
 		width: 190px;
 		height: 25px;
 		background-color: transparent;
 		margin-bottom: 20px;
 	}
 
-	.subject{
+	.subject {
 		width: 400px;
 		height: 25px;
 		background-color: transparent;
 		margin-bottom: 20px;
 	}
 
-	.message{
+	.message {
 		width: 400px;
 		height: 60px;
 		background-color: transparent;
 		margin-bottom: 40px;
 	}
 
-	.button1{
+	.button1 {
 		margin-left: -410px;
 		width: 410px;
 		height: 40px;
@@ -84,50 +90,53 @@
 		margin-top: 40px;
 		margin-bottom: 20px;
 	}
-	
 
-	.footer{
+
+	.footer {
 		margin-top: 100px;
 	}
 </style>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>project-one</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>project-one</title>
 </head>
+
 <body>
-  <div class="logo"><img src="images/logo.jpg" class="inlogo" alt="mylogo" width="20%" >
-  </div>
-  <div class="button-area"> 
-  	<div class="button">
-  		<div class="inbutton"><a href="index.html">Home</a></div>
-  		<div class="inbutton"><a href="about.html">About</a></div>
-  		<div class="inbutton"><a href="shop.html">Shop</a></div>
-  		<div class="inbutton"><a href="contact.html">Contact</a></div>
-  	</div>
-  </div>
+	<div class="logo"><img src="images/logo.jpg" class="inlogo" alt="mylogo" width="20%">
+	</div>
+	<div class="button-area">
+		<div class="button">
+			<div class="inbutton"><a href="index.html">Home</a></div>
+			<div class="inbutton"><a href="about.html">About</a></div>
+			<div class="inbutton"><a href="shop.html">Shop</a></div>
+			<div class="inbutton"><a href="contact.html">Contact</a></div>
+		</div>
+	</div>
 
-    <img src="images/c1.png" width="100% " class="contact-image">
-  <div class="contact-bg">
-  	<div class="contact-bgtext">
-  		<br> <br>
-  		<h2 class="contact-heading">HAVE A QUESTION?</h2>
-  		<p class="contact-para">For questions or comments about our products and services, wholesale enquires or custom orders please do not hesitate to get in touch.</p>
-  	</div>
-  	<div class="contact-form">
-  		<form>
-  			<input type="text" name="name:" placeholder="Your Name" class="name">
-  			<input type="email" name="email" placeholder="Your Email" class="email"><br>
-  			<input type="text" name="subject" placeholder="Subject" class="subject"><br>
-  			<textarea name="message" placeholder="Message" class="message"></textarea>
-  			<input type="submit" value="send" class="button1">
-  		</form>
-  	</div>
-  </div>
+	<img src="images/c1.png" width="100% " class="contact-image">
+	<div class="contact-bg">
+		<div class="contact-bgtext">
+			<br> <br>
+			<h2 class="contact-heading">HAVE A QUESTION?</h2>
+			<p class="contact-para">For questions or comments about our products and services, wholesale enquires or custom orders please do not hesitate to get in touch.</p>
+		</div>
+		<div class="contact-form">
+			<form action="mailto:hemanth05921@gmail.com" method="post" enctype="text/plain">
+				<input type="text" name="name:" placeholder="Your Name*" required class="name">
+				<input type="email" name="email" placeholder="Your Email*" class="email" required><br>
+				<input type="text" name="subject" placeholder="Subject*" class="subject"><br>
+				<textarea name="message" placeholder="Message" class="message"></textarea>
+				<input type="submit" value="send" class="button1">
+			</form>
+		</div>
+	</div>
 
-  <div class="footer"><img src="images/c2.png" width="100%"></div>
+	<div class="footer"><img src="images/c2.png" width="100%"></div>
 
-  
+
 </body>
+
 </html>
